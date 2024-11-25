@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 
 export  function Textfrom(props){
 
-    const a="jagdish";
+    
 
     const handleUpclick=()=>{
         console.log("UpperCase was clicked" + text);
