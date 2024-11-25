@@ -32,7 +32,7 @@ export  function Textfrom(props){
                                 <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-100 mb-lg-9">
+                                <ul class="navbar-nav me-auto mb-10 mb-lg-9">
                                     <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                     </li>
@@ -40,7 +40,7 @@ export  function Textfrom(props){
                                     <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                                         Dropdown
                                     </a>
                                     <ul class="dropdown-menu">
@@ -74,7 +74,7 @@ export  function Textfrom(props){
         <div className='container' my-2>
             <h1>Your text summary</h1>
             <p>{text.split(" ").length} words and {text.length} characters</p>
-            <p>readed in {0.008 * text.split(" ").length} minutes</p>
+            <p>Readed in {0.008 * text.split(" ").length} minutes</p>
         </div>
         </>
     )
