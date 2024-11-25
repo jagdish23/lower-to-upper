@@ -30,7 +30,7 @@ export  function Textfrom(props){
             <textarea className="form-control" value={text} onChange={handleOnChange} id="mybox" rows="8"></textarea>
             </div>
             <button className='btn btn-primary mx-2' onClick={handleUpclick}>Convert to uppercase</button>
-            <button className='btn btn-primary' onClick={handleLoclick}>Convert to Lowercase</button>
+            <button className='btn btn-info' onClick={handleLoclick}>Convert to Lowercase</button>
         </div>
 
         <div className='container' my-2>
